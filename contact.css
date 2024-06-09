@@ -1,0 +1,114 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1,
+h2,
+h3 {
+  margin-bottom: 15px;
+}
+
+p {
+  margin-bottom: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+}
+
+a:hover {
+  color: #000;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+/* Header Styles */
+header {
+  background-color: #fff;
+  padding: 10px 0;
+}
+
+.logo {
+  float: left;
+}
+
+nav {
+  float: right;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+/* Hero Section Styles */
+.hero {
+  background-color: #f0f0f0;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.hero button {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.hero button:hover {
+  background-color: #000;
+}
+
+/* How It Works Styles */
+.how-it-works {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.steps {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.step {
+  width: 24%;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.step img {
+  margin-bottom: 10px;
+}
+
+/* About Us Styles */
+.about-us {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}

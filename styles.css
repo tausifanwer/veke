@@ -1,0 +1,185 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0;
+}
+
+header {
+  background-color: #333;
+  color: white;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header .logo img {
+  max-width: 100px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+main {
+  padding: 2rem;
+}
+
+#home {
+  display: flex;
+  flex-direction: row;
+}
+
+.hero {
+  text-align: center;
+  background-color: #b1fb8f;
+  padding: 2rem;
+  border-radius: 10px 0 0 10px;
+}
+.img {
+  width: 891px;
+  height: 973px;
+}
+.img img {
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+
+.hero h1 {
+  color: #333;
+}
+
+.hero p {
+  color: #555;
+}
+
+.hero button {
+  background-color: white;
+  color: #4caf50;
+  padding: 1rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: 0px 5px 13px rgba(0, 0, 0, 0.221);
+}
+
+.stat-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+  margin: 2rem 0;
+}
+
+.stat-item {
+  background-color: white;
+  padding: 1rem;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.stat-item h3 {
+  color: #4caf50;
+}
+
+section#pay-in-3 {
+  text-align: center;
+}
+
+section#pay-in-3 img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+section#how-it-works .steps {
+  display: flex;
+  justify-content: space-between;
+}
+
+section#how-it-works .step {
+  background-color: #e0ffe0;
+  padding: 1rem;
+  border-radius: 10px;
+  text-align: center;
+}
+
+section#happy-users {
+  background-color: #f0f0f0;
+  padding: 2rem;
+  text-align: center;
+}
+
+.user-reviews {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.user-review {
+  background-color: white;
+  padding: 1rem;
+  border-radius: 10px;
+  width: 30%;
+}
+
+#contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+#contact-form label {
+  font-weight: bold;
+}
+
+#contact-form input,
+#contact-form textarea {
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+#contact-form button {
+  background-color: #4caf50;
+  color: white;
+  padding: 1rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  padding: 2rem;
+  text-align: center;
+}
+
+footer .footer-links {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 1rem;
+}
+
+footer .footer-links div {
+  text-align: left;
+}
+
+footer .footer-links ul {
+  list-style: none;
+  padding: 0;
+}
+
+footer .footer-links a {
+  color: white;
+  text-decoration: none;
+}
